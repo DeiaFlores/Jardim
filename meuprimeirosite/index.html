@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>meu site</title>
+    <link href="styles/style.css" rel="stylesheet">
+    <style>
+      body,
+      ul,
+      li,
+      p {
+        margin: 0px;
+        padding:0px;
+        list-style: none;
+        font-size: 1.2rem;
+        font-family: Arial;
+      }
+      a{
+        text-decoration: none;
+        color :white;
+      }
+
+      h1{
+        text-align: center;
+        margin-top: 100px;
+      }
+      img{
+        max-width: 100%;
+        display: block;
+      }
+
+      header{
+        background: #1d1e20;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+      }
+      .menu{
+        display: flex;
+
+      }
+      .menu li{
+        margin-left: 10px;
+      }
+      .menu li a {
+        display: block;
+        padding: 10px;
+      }
+      .flex{
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .flex>div{
+        flex: 1 1 200px;
+      }
+      </style>
+  </head>
+  <body>
+
+    <header class="header">
+      <a href="/">Logo</a>
+      <nav>
+        <ul class="menu">
+          <li><a href="/">Sobre</a></li>
+          <li><a href="/">Produto</a></li>
+          <li><a href="/">Menu</a></li>
+        </ul>
+        </header>
+
+        <h1> Section Flexbox</h1>
+
+        <section class="flex">
+          <div>
+            <img src="images.png" alt="mapadobrasil">
+            <p>mapa</p>
+         </div>
+         <div>
+           <img src="images.png" alt="mapadobrasil">
+           <p>mapa</p>
+        </div>
+        <div>
+          <img src="images.png" alt="mapadobrasil">
+          <p>mapa</p>
+       </div>
+       <div>
+         <img src="images.png" alt="mapadobrasil">
+         <p>mapa</p>
+      </div>
+
+
+        </section>
+
+
+  </body>
+</html>
